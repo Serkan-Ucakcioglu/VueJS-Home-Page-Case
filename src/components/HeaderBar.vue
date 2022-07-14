@@ -52,12 +52,13 @@ header{
       display: flex;
       justify-content: space-around;
       align-items: center;
+      min-height: 100px;
       
       a{
         font-size: 17px;
         color: black;
         font-weight: bolder;
-        padding: 4px;
+        padding: 15px;
         &:hover{
            border: 1px solid gray;
            background: gray;
