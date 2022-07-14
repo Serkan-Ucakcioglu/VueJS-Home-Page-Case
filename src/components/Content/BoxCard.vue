@@ -48,7 +48,7 @@
    .box{
     display: flex;
     flex-direction: column;
-    width: 230px;
+    width: 300px;
     height: 200px;
     padding: 10px;
     box-sizing: border-box;
