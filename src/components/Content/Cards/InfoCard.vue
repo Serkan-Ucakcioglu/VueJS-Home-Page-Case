@@ -79,7 +79,7 @@ section {
         -moz-box-shadow: -1px -2px 15px 4px rgba(0, 0, 0, 0.75);
         box-shadow: -1px -2px 15px 4px rgba(0, 0, 0, 0.75);
         margin-right: 10px;
-        
+
         img {
           width: 100%;
           height: 200px;
@@ -111,11 +111,11 @@ section {
   }
 }
 @media only screen and (max-width: 600px) {
-  .cards{
+  .cards {
     display: flex;
     flex-direction: column !important;
     align-items: center !important;
-    .card{
+    .card {
       margin-bottom: 20px !important;
     }
   }

@@ -2,9 +2,8 @@
 <template>
   <footer>
     <div class="container">
-          <h1>Footer</h1>
+      <h1>Footer</h1>
       <div class="footer-content">
-    
         <a href="https://twitter.com/serkaann06" class="twitter">
           <svg
             version="1.1"
@@ -138,17 +137,17 @@ footer {
     text-align: center;
     margin-top: 10px;
   }
- .footer-content{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-   a {
-    margin-right: 5px;
-    svg {
-      width: 30px;
-      height: 30px;
+  .footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a {
+      margin-right: 5px;
+      svg {
+        width: 30px;
+        height: 30px;
+      }
     }
   }
- }
 }
 </style>
