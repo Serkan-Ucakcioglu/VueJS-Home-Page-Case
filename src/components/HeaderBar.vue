@@ -1,4 +1,7 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+
+
+</script>
 <template>
   <header>
     <div class="container">
@@ -28,6 +31,13 @@ header{
         font-size: 17px;
         color: black;
         font-weight: bolder;
+        padding: 4px;
+        &:hover{
+           border: 1px solid gray;
+           background: gray;
+           color: white;
+           
+        }
         
       }
       

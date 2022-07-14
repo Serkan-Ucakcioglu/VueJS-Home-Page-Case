@@ -58,7 +58,7 @@
 
 <style lang="scss">
 section {
-  margin-bottom: 10px;
+  margin-bottom: 40px;
   .card-list {
     display: flex;
     flex-direction: column;

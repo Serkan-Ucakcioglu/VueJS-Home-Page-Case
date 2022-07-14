@@ -1,16 +1,19 @@
-<template>
-<!-- //Components -->
-  <HeaderBar />
-  <ContentPage/>
-</template>
-
 <script setup lang="ts">
 //import
 import HeaderBar from './components/HeaderBar.vue';
 import ContentPage from './components/Content/ContentPage.vue';
+import FooterBar from './components/FooterBar.vue';
 
 
 </script>
+<template>
+<!-- //Components -->
+  <HeaderBar />
+  <ContentPage/>
+  <FooterBar/>
+</template>
+
+
 
 <style lang="scss">
 
