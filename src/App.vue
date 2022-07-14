@@ -20,7 +20,12 @@ import ContentPage from './components/Content/ContentPage.vue';
   margin: 0px auto;
 }
 
+
+
 a{
   text-decoration: none;
+}
+ul,li{
+  list-style: none;
 }
 </style>

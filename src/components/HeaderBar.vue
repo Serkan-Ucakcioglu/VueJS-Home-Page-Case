@@ -34,4 +34,9 @@ header{
     }
   }
 }
+@media only screen and (max-width: 800px) {
+ .navigation-list{
+  display: none !important;
+ }
+}
 </style>

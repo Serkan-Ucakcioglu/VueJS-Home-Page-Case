@@ -1,17 +1,22 @@
 <script setup lang="ts">
 //import 
+import InfoCard from "./Cards/InfoCard.vue";
+import PricingCard from "./Cards/PricingCard.vue";
+import BoxCard from "./Cards/BoxCard.vue";
 import ContentSlider from "./ContentSlider.vue";
-import BoxCard from "./BoxCard.vue";
+
 </script>
 <template>
   <main>
     <div class="container">
 
       <div class="content">
-        <h1 class="title">Marketing</h1>
+        
         <!-- //Components -->
         <ContentSlider /> <!-- //Slider -->
         <BoxCard/> <!-- //Box cards -->
+        <PricingCard/> <!-- //Pricing Plans -->
+        <InfoCard/>
       </div>
 
     </div>

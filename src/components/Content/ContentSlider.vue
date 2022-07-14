@@ -21,13 +21,16 @@ const slides = [
 </script>
 
 <template>
-   <vueper-slides fade :touchable="true">
+  <div class="container">
+    <h1 class="title">Marketing</h1>
+     <vueper-slides fade :touchable="true">
   <vueper-slide
     v-for="(slide, i) in slides"
     :key="i"
     :image="slide.image"
     />
 </vueper-slides>
+  </div>
 </template>
 
 <style lang="scss">

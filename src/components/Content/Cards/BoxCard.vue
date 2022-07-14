@@ -63,7 +63,7 @@
     flex-direction: column !important;
     .box{
         width: 90%;
-        height: 130px;
+        min-height: 130px;
     }
   }
 }
