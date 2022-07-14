@@ -81,6 +81,8 @@ header{
 flex-direction: column;
 justify-content: center !important;
 align-items: center !important;
+padding: 15px;
+box-sizing: border-box;
 
 a{
   width: 100%;
